@@ -6,8 +6,8 @@
 class PaintFP {
 private:
     int x = 1, y = 1;
-    int min_x = 0, min_y = 0;
-    int max_x = 255, max_y = 255;
+    const int min_x = 0, min_y = 0;
+    const int max_x = 255, max_y = 255;
 public:
     int ch;
 
@@ -18,8 +18,8 @@ public:
         nodelay(stdscr, TRUE);
     }
 
-    void check_pos() {
-        mvprintw(0, 0, "PaintFP v1.0 - X: %i Y: %i", x, y);
+     void check_pos() {
+        mvprintw(0, 0, "PaintFP v1.0.1 - X: %i Y: %i", x, y);
     }
     void move_cur() {
         if (ch == 'l')
@@ -32,12 +32,14 @@ public:
             x -= 1;
         move(y, x);
     }
-    void draw() {
+     void draw() {
         if (x < max_x && y < max_y && x > min_x && y > min_y) {
             if (ch == KEY_SPACE)
                 addch('#');
             if (ch == KEY_BACKSPACE)
                 addch(' ');
+            if (ch == 'C')
+                clear();
         }
     }
 
@@ -58,6 +60,6 @@ PaintFP game;
 
         if (game.ch == 'c')
             break;
-    };
+    }
     return 0;
 }
