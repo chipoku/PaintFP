@@ -2,8 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(PaintFP)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_LIBRARIES "-static-libgcc -static-libstdc++")
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY
+set(EXECUTABLE_OUTPUT_PATH
         ${PROJECT_SOURCE_DIR}/bin)
 set(PROJECT_SRC_FILES
         ${PROJECT_SOURCE_DIR}/src/main.cpp)
