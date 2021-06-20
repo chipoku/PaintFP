@@ -3,13 +3,13 @@ Paint For Paupers - very simple terminal-based graphical "editor", created using
 
 Controls:
   
-  1.Cursor
+  1.Cursor:
     1.1. h - right
     1.2. j - down
     1.3. k - up
     1.4. l - left
 
-  2.Drawing
+  2.Drawing:
     2.1. Space - draw
     2.2. Backspaces - erasure
 
