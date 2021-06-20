@@ -1,5 +1,6 @@
 # PaintFP v1.0
 Paint For Paupers - very simple terminal-based graphical "editor", created using ncurses
+
 Controls:
   1.Cursor
     1.1. h - right
