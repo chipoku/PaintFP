@@ -2,6 +2,7 @@
 Paint For Paupers - very simple terminal-based graphical "editor", created using ncurses
 
 Controls:
+  
   1.Cursor
     1.1. h - right
     1.2. j - down
