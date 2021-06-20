@@ -8,7 +8,7 @@ Controls:
         3. k - up
         4. l - left   
         5. Space - draw
-        6. Backspaces - erasure
+        6. Backspace - erasure
 
 Functions: 
  
