@@ -1,6 +1,5 @@
 #include <ncurses.h>
 #include <iostream>
-#include <menu.h>
 
 #define KEY_SPACE 32
 #define KEY_ENTER 10
