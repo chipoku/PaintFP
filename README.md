@@ -4,11 +4,13 @@ Paint For Paupers - very simple terminal-based graphical "editor", created using
 Controls:
 	
 	1. arrow keys - movenment
-	2. Space - draw
-	3. Backspace - erasure
-	4. H - help menu
-	5. R - clear all
-	6. Q - quit
+	2. Enter - select
+	3. Space - draw
+	4. Backspace - erasure
+	5. H - help menu
+	6. C - color select menu
+	7. R - clear all
+	8. Q - quit
 
 Functions: 
 
@@ -17,7 +19,7 @@ Functions:
 	3. Clear all screen - Implemented in v1.1.1_beta 
 	4. Help menu - Implemented in v1.1.1_beta 
 	5. Colors - Implemented in v1.1.1_beta
-	6. Select color menu - In development
-	7. Select cursor menu - In development
+	6. Select color menu - Implemented in v1.2_beta
+	7. Select cursor menu - you may change color in v1.2_beta/In development
 	8. Save/Load - In development 
 	9. Efficient & beautiful code - Never
