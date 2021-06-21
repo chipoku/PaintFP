@@ -3,9 +3,9 @@ Paint For Paupers - very simple terminal-based graphical "editor", created using
 
 Controls:
   
-        1. arrow keys - movenment
+    1. arrow keys - movenment
 	2. Space - draw
-        3. Backspace - erasure
+	3. Backspace - erasure
 	4. H - help menu
 	5. R - clear all
 	6. Q - quit
