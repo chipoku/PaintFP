@@ -52,10 +52,10 @@ public:
                   1, width/8,
                   "Print For Paupers v1.1.1b - HELP:");
         mvwaddstr(help_win,
-                4, 1,
+                  4, 1,
                   help_msg);
         box(help_win,
-                0, 0);
+            0, 0);
 
         wrefresh(help_win);
     }
