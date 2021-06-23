@@ -48,6 +48,7 @@ public:
         init_colors(COLOR_WHITE,
                     COLOR_BLACK);
         bkgd(COLOR_PAIR(1));
+        clear();
         attron(COLOR_PAIR(1));
         noecho();
         nodelay(stdscr, TRUE);
@@ -144,7 +145,7 @@ public:
                 keypad(color_win, FALSE);
                 init_colors(font, background);
                 bkgd(COLOR_PAIR(1));
-                refresh();
+                clear();
                 break;
             }
 
