@@ -3,7 +3,7 @@ Paint For Paupers - very simple terminal-based graphical "editor", created using
 
 Controls:
 	
-	1. arrow keys - movenment
+	1. main branch - hjkl; beginning with v1.1.x_beta  - arrow keys - movenment
 	2. Enter - select
 	3. Space - draw
 	4. Backspace - erasure
